@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: weibo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    url: jdbc:mysql:///mybatis?serverTimezone=UTC
+    hikari:
+      username: test
+      password: xjc13579
+logging:
+  level:
+   edu.njucm.weibo.mapper: debug
